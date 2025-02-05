@@ -1,6 +1,6 @@
 # nuScenes to KITTI Conversion with LiDAR Augmentation
 
-This project converts nuScenes data to KITTI format while augmenting the LiDAR point cloud data to improve scene reconstruction. The conversion process supports only the **front-facing camera** in nuScenes, ensuring compatibility with KITTI-based object detection frameworks.
+This project converts nuScenes data to KITTI format while augmenting the LiDAR point cloud data to improve scene reconstruction.
 
 ## Features
 - **KITTI Conversion**: Transforms nuScenes dataset into KITTI format.
@@ -27,7 +27,7 @@ This project improves LiDAR-based scene understanding using the following techni
    Vehicles and other objects are often symmetric. By mirroring LiDAR rays about the vertical plane of each bounding box, we fill occluded regions and enhance object completeness in the dataset.
 
 ## Installation
-This project does **not** include a `requirements.txt` file. To run the script, ensure you have the following dependencies installed:
+To run the script, ensure you have the following dependencies installed:
 - Python 3
 - PyTorch
 - NumPy
@@ -35,10 +35,6 @@ This project does **not** include a `requirements.txt` file. To run the script, 
 - PIL (Pillow)
 - Fire
 - pyquaternion
-
-You can install them manually using:
-```bash
-pip install torch numpy matplotlib pillow fire pyquaternion
 
 Usage
 
