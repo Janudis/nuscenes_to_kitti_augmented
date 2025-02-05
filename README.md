@@ -38,8 +38,9 @@ To run the script, ensure you have the following dependencies installed:
 
 ## Usage
 Update Path
+In export_kitti.py,
     
-    In export_kitti.py, change: sys.path.append('/media/harddrive/github')  # Change this to your repository path 
+     change: sys.path.append('/media/harddrive/github')  # Change this to your repository path 
     
 to point to your local repository.
 
