@@ -9,9 +9,7 @@ This project converts nuScenes data to KITTI format while augmenting the LiDAR p
 - **Symmetry Constraints**: Densifies occluded regions by mirroring LiDAR points across object bounding boxes.
 
 ## Project Structure
-The project follows this structure:
-
-github/ ├── nuscenes/ │ ├── scripts/ │ │ ├── export_kitti.py # Main script for nuScenes to KITTI conversion │ │ ├── ... # Other utility scripts (not detailed here)
+The project is organized into a main directory called github, which contains a subdirectory named nuscenes. Inside nuscenes, there is a scripts folder that includes various Python scripts related to nuScenes data processing. The key script in this project is export_kitti.py, which is responsible for converting nuScenes data into the KITTI format. Other scripts in the scripts folder serve as utility functions and are not described in detail here.
 
 
 ## LiDAR Augmentation Methodology
@@ -53,12 +51,10 @@ Example:
 
     python export_kitti.py nuscenes_gt_to_kitti --nusc_kitti_dir /media/harddrive/github/testing_repo
 
-Notes
-
+## Notes
 Other scripts in nuscenes/scripts/ are not required and thus not documented here.
 This process assumes you already have the nuScenes dataset and relevant environment set up.
 
-References
-
+## References
 nuScenes Dataset
 KITTI Dataset
