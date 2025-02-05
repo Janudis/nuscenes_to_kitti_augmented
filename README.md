@@ -36,13 +36,11 @@ To run the script, ensure you have the following dependencies installed:
 - Fire
 - pyquaternion
 
-Usage
-
-    Update Path
-    In export_kitti.py, change:
-
-sys.path.append('/media/harddrive/github')  # Change this to your repository path
-
+## Usage
+Update Path
+    
+    In export_kitti.py, change: sys.path.append('/media/harddrive/github')  # Change this to your repository path 
+    
 to point to your local repository.
 
 Run the Conversion
@@ -56,7 +54,6 @@ Example:
 
 Notes
 
-    Only the front-facing camera is used for KITTI-style images.
     Other scripts in nuscenes/scripts/ are not required and thus not documented here.
     This process assumes you already have the nuScenes dataset and relevant environment set up.
 
