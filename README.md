@@ -47,7 +47,7 @@ to point to your local repository.
 Run the Conversion
 Convert nuScenes data into KITTI format by specifying the output directory:
 
-python export_kitti.py nuscenes_gt_to_kitti --nusc_kitti_dir /path/to/output_dir
+    python export_kitti.py nuscenes_gt_to_kitti --nusc_kitti_dir /path/to/output_dir
 
 Example:
 
@@ -55,10 +55,10 @@ Example:
 
 Notes
 
-    Other scripts in nuscenes/scripts/ are not required and thus not documented here.
-    This process assumes you already have the nuScenes dataset and relevant environment set up.
+Other scripts in nuscenes/scripts/ are not required and thus not documented here.
+This process assumes you already have the nuScenes dataset and relevant environment set up.
 
 References
 
-    nuScenes Dataset
-    KITTI Dataset
+nuScenes Dataset
+KITTI Dataset
